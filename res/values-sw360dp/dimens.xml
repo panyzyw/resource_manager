@@ -1,0 +1,53 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">18dp</dimen>
+    <dimen name="activity_vertical_margin">18dp</dimen>
+    <dimen name="ll_top_layout_margin_top">22.5dp</dimen>
+    <dimen name="ll_top_layout_margin_left">33.8dp</dimen>
+    <dimen name="btn_back_padding_bottom">5.6dp</dimen>
+    <dimen name="linearlayout_1_margin_top">90dp</dimen>
+    <dimen name="linearlayout_2_margin_top">213.8dp</dimen>
+    <dimen name="linearlayout_1_margin_left">36dp</dimen>
+    <dimen name="linearlayout_1_margin_right">31.5dp</dimen>
+    <dimen name="textview_type_video_margin_top">56dp</dimen>
+    <dimen name="textview_type_name_margin_top">18dp</dimen>
+    <dimen name="imagebutton_type_video_margin_left">27dp</dimen>
+    <dimen name="textview_type_music_margin_left">90dp</dimen>
+    <dimen name="textview_type_undentify_margin_left">78.8dp</dimen>
+    <dimen name="gv_content_detail_horizontalspacing">4.5dp</dimen>
+    <dimen name="gv_content_detail_verticalspacing">4dp</dimen>
+    <dimen name="gv_content_detail_margin_left">36dp</dimen>
+    <dimen name="gv_content_detail_margin_right">31.5dp</dimen>
+    <dimen name="gv_content_detail_margin_top">90dp</dimen>
+    <dimen name="gv_content_detail_margin_bottom">22.5dp</dimen>
+    <dimen name="gv_content_detail_columnwidth">126dp</dimen>
+    <dimen name="gv_item_width">124dp</dimen>
+    <dimen name="gv_item_height">84dp</dimen>
+    <dimen name="gv_item_text_name">112dp</dimen>
+    <dimen name="loading_layout_text_margin_left">11.3dp</dimen>
+     <dimen name="office_item_icon_width">60dp</dimen>
+     <dimen name="office_item_icon_margin_left">10dp</dimen>
+     <dimen name="framelayout_padding_top">27dp</dimen>
+     <dimen name="linearlayout_1_layout_height">260dp</dimen>
+     <dimen name="myscrollview_margin_left">18dp</dimen>
+     <dimen name="textview_reloading_margin_left">22.5dp</dimen>
+     
+      <dimen name="linearlayout_2_width">123.75dp</dimen>
+     <dimen name="relativelayout_2_height">173.25dp</dimen>
+     <dimen name="textview_2_margin_left">22.5dp</dimen>
+     <dimen name="gridview_horizontal_colunmwidth">112.5dp</dimen>
+     <dimen name="btn_next_width">67.5dp</dimen>
+     <dimen name="imagebutton_width">67.5dp</dimen>
+     <dimen name="imagebutton_margin_left">11.25dp</dimen>
+     <dimen name="tv_current_video_name_padding_right">22.5dp</dimen>
+     <dimen name="linearlayout_padding_left">6.75dp</dimen>
+     <dimen name="sb_video_minheight">3dp</dimen>
+     <dimen name="sb_video_margin_left">6.75dp</dimen>
+     <dimen name="tv_margin_left">9dp</dimen>
+     <dimen name="bright_icon_width">78.75dp</dimen>
+       <dimen name="loading_bg_padding_left">40dp</dimen>
+     <dimen name="loading_bg_padding_top">18dp</dimen>
+    
+
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">y20aYYDRobotResourceManager</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="otg_state_info">已连接</string>
+    <string name="otg_scanner_anim_duration">140</string>
+    <string name="button_back">返回</string>
+    <string name="file_title">音乐</string>
+    <string name="type_video">影视</string>
+    <string name="type_music">音乐</string>
+    <string name="type_picture">图片</string>
+    <string name="type_undentify">其它</string>
+    <string name="file_add_time">2015-04-03</string>
+    <string name="on_scanner">正在扫描...</string>
+    <string name="office_type">其它</string>
+    <string name="office_item_name">文件名</string>
+    <string name="office_item_time">文件时间</string>
+    <string name="office_item_size">文件大小</string>
+    <string name="video_name">极光者</string>
+    <string name="video_publish_time">2015年10月</string>
+     <string name="local_video_name">本地视频名称</string>
+     <string name="video_current_time">00:00</string>
+    <string name="video_format_error">很抱歉，格式不支持</string>
+
+    <string name="To_scan">正在重新扫描，请稍后...</string>
+    <string name="title_picture">图片</string>
+    <string name="title_music">音乐</string>
+    <string name="scanning_video">正在扫描本地视频</string>
+    <string name="Not_detect_video">没有检测到视频文件</string>
+    <string name="not_remove_permission">没有删除权限</string>
+    <string name="dialog_delete">删除</string>
+    <string name="dialog_delete_sure">确定删除吗</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="dialog_confirm">确定</string>
+    <string name="detected_audio">没有检测到音频文件</string>
+    <string name="detected_picture">没有检测到图片文件</string>
+    <string name="no_office_file">暂时没有其他文件</string>
+    <string name="u_disk_remove">U盘已移除</string>
+</resources>

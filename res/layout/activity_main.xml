@@ -1,0 +1,146 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/resource_bg" 
+    android:id="@+id/rl_layout">
+    
+    <Button 
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/ll_top_layout_margin_top"
+        android:layout_marginLeft="@dimen/ll_top_layout_margin_left"
+        android:text="@string/button_back"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:paddingBottom="@dimen/btn_back_padding_bottom"
+        android:background="@drawable/btn_back_drawable"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/linearlayout_1_margin_top"
+        android:layout_marginLeft="@dimen/linearlayout_1_margin_left"
+        android:layout_marginRight="@dimen/linearlayout_1_margin_right"
+        android:gravity="center_vertical"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal" >
+		
+       <RelativeLayout 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+        <ImageButton
+            android:id="@+id/ib_video"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_content_selector"/>
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_video"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/textview_type_name_margin_top"/>
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/type_video"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/textview_type_video_margin_top"/>
+        </RelativeLayout>
+       <RelativeLayout 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="@dimen/imagebutton_type_video_margin_left">
+         <ImageButton
+            android:id="@+id/ib_music"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_content_selector" />
+          <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_music"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/textview_type_name_margin_top"/>
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/type_music"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/textview_type_video_margin_top"/>
+        </RelativeLayout>
+
+     </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/linearlayout_2_margin_top"
+        android:layout_marginLeft="@dimen/linearlayout_1_margin_left"
+        android:layout_marginRight="@dimen/linearlayout_1_margin_right"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+        <RelativeLayout 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+        <ImageButton
+            android:id="@+id/ib_picture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_content_selector" />
+         <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_photo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/textview_type_name_margin_top"/>
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/type_picture"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/textview_type_video_margin_top"/>
+        </RelativeLayout>
+       <RelativeLayout 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="@dimen/imagebutton_type_video_margin_left">
+         <ImageButton
+            android:id="@+id/ib_unidentify_file"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_content_selector" />
+         
+          <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_unidentify"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/textview_type_name_margin_top"/>
+         
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/type_undentify"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/textview_type_video_margin_top"/>
+        </RelativeLayout>
+        
+    </LinearLayout>
+    
+
+</RelativeLayout>

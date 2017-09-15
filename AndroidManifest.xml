@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yongyida.robot.resourcemanager"
+    android:versionCode="1"
+	android:sharedUserId="android.uid.system"
+    android:versionName="2.0.9" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="22"/>
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+        <activity
+            android:name="com.yongyida.robot.resourcemanager.activity.TranspanrenActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.yyd.resourcecontrol"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.yongyida.robot.resourcemanager.activity.MainActivity"
+                  android:launchMode="singleTask"
+                  android:screenOrientation="landscape"></activity>
+        <activity android:name="com.yongyida.robot.resourcemanager.activity.MusicAndImageActivity"
+            android:exported="true"
+                  android:launchMode="singleTask"
+                  android:screenOrientation="landscape"></activity>
+        <activity android:name="com.yongyida.robot.resourcemanager.activity.ImageShowActivity"
+                  android:launchMode="singleTask"
+                  android:screenOrientation="landscape"></activity>
+        <activity android:name="com.yongyida.robot.resourcemanager.activity.OtherFileActivity"
+                  android:launchMode="singleTask"
+                  android:screenOrientation="landscape"></activity>
+        <activity android:name="com.yongyida.robot.resourcemanager.activity.VideoActivity"
+            android:exported="true"
+                  android:launchMode="singleTask"
+                  android:screenOrientation="landscape"></activity>
+        <activity android:name="com.yongyida.robot.resourcemanager.activity.VideoPlayerActivity"
+                  android:launchMode="singleTask"
+                  android:screenOrientation="landscape"
+                  android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"></activity>
+
+        <receiver
+            android:name="com.yongyida.robot.resourcemanager.receiver.OTGResourceReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_MOUNTED"/>
+                <data android:scheme="file"/>
+            </intent-filter>
+        </receiver>
+
+        <receiver
+            android:name="com.yongyida.robot.resourcemanager.receiver.OTGResourceCloseReciver">
+            <intent-filter>
+                <action android:name="com.yydrobot.resource.close"/>
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

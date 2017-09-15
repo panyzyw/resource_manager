@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+    
+	<RelativeLayout 
+	    android:layout_width="@dimen/linearlayout_2_width"
+	    android:layout_height="@dimen/relativelayout_2_height"
+		android:gravity="center_horizontal"
+	    android:background="@drawable/video_item"
+	    android:padding="1dp">
+    <ImageView
+        android:id="@+id/iv_video_icon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:background="@null" />
+  
+    </RelativeLayout>
+    
+	<TextView
+	    android:id="@+id/tv_video_name"
+	    android:layout_width="@dimen/gridview_horizontal_colunmwidth"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="2dp"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:textColor="@color/video_name_yellow"
+	    android:text="@string/video_name"
+	    android:ellipsize="end"
+	    android:singleLine="true"/>
+	
+	 <TextView
+        android:id="@+id/tv_video_publish_time"
+        android:layout_width="@dimen/gridview_horizontal_colunmwidth"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="@string/video_publish_time"
+        android:textColor="@android:color/white"
+        android:gravity="center_horizontal"
+        android:textSize="12sp" />
+   
+
+</LinearLayout>

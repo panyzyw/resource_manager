@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:drawable="@drawable/img001" android:duration="@string/otg_scanner_anim_duration"></item>
+    <item android:drawable="@drawable/img002" android:duration="@string/otg_scanner_anim_duration"></item>
+    <item android:drawable="@drawable/img003" android:duration="@string/otg_scanner_anim_duration"></item>
+    <item android:drawable="@drawable/img004" android:duration="@string/otg_scanner_anim_duration"></item>
+    <item android:drawable="@drawable/img005" android:duration="@string/otg_scanner_anim_duration"></item>
+    <item android:drawable="@drawable/img006" android:duration="@string/otg_scanner_anim_duration"></item>
+    <item android:drawable="@drawable/img007" android:duration="@string/otg_scanner_anim_duration"></item>
+    <item android:drawable="@drawable/img008" android:duration="@string/otg_scanner_anim_duration"></item>
+    <item android:drawable="@drawable/img009" android:duration="@string/otg_scanner_anim_duration"></item>
+    <item android:drawable="@drawable/img010" android:duration="@string/otg_scanner_anim_duration"></item>
+    <item android:drawable="@drawable/img011" android:duration="@string/otg_scanner_anim_duration"></item>
+    <item android:drawable="@drawable/img012" android:duration="@string/otg_scanner_anim_duration"></item>
+    <item android:drawable="@drawable/img013" android:duration="@string/otg_scanner_anim_duration"></item>
+    <item android:drawable="@drawable/img014" android:duration="@string/otg_scanner_anim_duration"></item>
+    <item android:drawable="@drawable/img015" android:duration="@string/otg_scanner_anim_duration"></item>
+    <item android:drawable="@drawable/img016" android:duration="@string/otg_scanner_anim_duration"></item>
+    <item android:drawable="@drawable/img017" android:duration="@string/otg_scanner_anim_duration"></item>
+    <item android:drawable="@drawable/img018" android:duration="@string/otg_scanner_anim_duration"></item>
+    <item android:drawable="@drawable/img019" android:duration="@string/otg_scanner_anim_duration"></item>
+    <item android:drawable="@drawable/img020" android:duration="@string/otg_scanner_anim_duration"></item>
+    <item android:drawable="@drawable/img021" android:duration="@string/otg_scanner_anim_duration"></item>
+    <item android:drawable="@drawable/img022" android:duration="@string/otg_scanner_anim_duration"></item>
+    <item android:drawable="@drawable/img023" android:duration="@string/otg_scanner_anim_duration"></item>
+    <item android:drawable="@drawable/img024" android:duration="@string/otg_scanner_anim_duration"></item>
+    <item android:drawable="@drawable/img025" android:duration="@string/otg_scanner_anim_duration"></item>
+    <item android:drawable="@drawable/img026" android:duration="@string/otg_scanner_anim_duration"></item>
+</animation-list>
